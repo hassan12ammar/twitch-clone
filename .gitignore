@@ -281,3 +281,7 @@ pyrightconfig.json
 # Ignore all local history of files
 .history
 .ionide
+
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
