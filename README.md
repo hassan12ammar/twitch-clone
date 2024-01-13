@@ -30,7 +30,18 @@ python manage.py migrate
 ## Usage
 ### Create SuperUser
 ```bash
-python manage.py createsuperuse
+python manage.py createsuperuser
+```
+
+## Environment Setup
+
+Before running the application, you need to set up your environment variables by creating a `.env` file in the root directory of the project. Below is an example of the required content for the `.env` file:
+
+```env
+# Django secret key for cryptographic signing.
+SECRET_KEY=mysecretkey123
+# Set DEBUG to True for development, and False for production.
+DEBUG=True
 ```
 
 ### Run the server
